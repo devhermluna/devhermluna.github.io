@@ -1,0 +1,39 @@
+@import 'variables'
+
+header.header
+  width: 1356px
+  margin: auto
+
+  .header-top-bar
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-top: 112px
+
+    .navigation-menu
+      ul
+        display: flex
+
+        li
+          &:not(:first-child)
+            margin-left: 38px
+
+          a
+            font-size: $fs-xl
+            color: white
+            text:
+              transform: uppercase
+              decoration: none
+              shadow: 0 0 10px rgba(0, 0, 0, 0.4)
+            letter-spacing: 0.1px
+  
+  .position-titles
+    margin-top: 210px
+    text-align: center
+
+    p
+      font:
+        size: 57px
+        weight: $fw-medium
+      line-height: 70px
+
